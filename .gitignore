@@ -34,3 +34,8 @@
 # objs
 Makefile
 objs/
+.idea
+./nginx/2.sh
+./nginx/work
+/CMakeLists.txt
+/cmake-build-debug/
