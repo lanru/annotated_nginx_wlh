@@ -109,7 +109,7 @@ public:
 
 #define NGX_NULL_HELPER(z, n, t) t
 #define NGX_MODULE_NULL(n)      \
-    BOOST_PP_ENUM(n, NGX_NULL_HELPER, nullptr)
+    BOOST_PP_ENUM(n, NGX_NULL_HELPER, nullptr) //预处理元编程
 
 #endif  //_NGX_CONFIG_HPP
 

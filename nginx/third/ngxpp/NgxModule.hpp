@@ -223,8 +223,8 @@ public:
     typedef ngx_stream_session_t    ngx_session_type;
 #endif
 public:
-    NgxModule(ngx_module_t& m ):
-        m_conf(m.ctx_index), m_ctx(m.ctx_index)
+    NgxModule(ngx_module_t& m ): //引用模块对象
+        m_conf(m.ctx_index), m_ctx(m.ctx_index) //使用序号m.ctx_index
     {}
 
     ~NgxModule() = default;

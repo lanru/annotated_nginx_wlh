@@ -49,7 +49,7 @@ public:
         return &c;
     }
 public:
-    static const ngx_module_t& module()
+    static const ngx_module_t& module() //模块定义
     {
         static ngx_module_t m =
         {
